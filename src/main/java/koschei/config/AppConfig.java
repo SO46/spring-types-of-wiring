@@ -14,4 +14,8 @@ public class AppConfig {
         return new Island2(wood);
     }
 
+    @Bean
+    public static Deth8 getDeth8() {
+        return new Deth8();
+    }
 }
